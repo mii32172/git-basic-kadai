@@ -1,0 +1,48 @@
+mirai@DESKTOP-1FHOC8E MINGW64 ~
+$ cd Documents
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents (main)
+$ mkdir git_challenge
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents (main)
+$ cd git_challenge
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/mirai/Documents/git_challenge/.git/
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git add hello_world.txt
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) e2f40bb] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git add hello_world.txt
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main 742e68f] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git diff
+
+mirai@DESKTOP-1FHOC8E MINGW64 ~/Documents/git_challenge (main)
+$ git log --oneline
+742e68f (HEAD -> main) 日本語訳を追加
+e2f40bb hello_world.txtを追加
+
+
+
+
+
+
